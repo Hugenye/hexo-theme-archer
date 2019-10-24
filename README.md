@@ -87,7 +87,7 @@ jsonContent:
 ```
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com  修改成对应自己创建的网址，例如https://996icu.github.io 
+url: http://yoursite.com  修改成对应自己创建的网址，例如http://996icu.github.io 
 ## 
 ```
 
