@@ -73,7 +73,7 @@ jsonContent:
     path: true
     text: false
     raw: false
-    content: false
+    content: falseURL
     slug: false
     updated: false
     comments: false
@@ -83,7 +83,13 @@ jsonContent:
     categories: true
     tags: true
 ```
-
+4.为了防止上传的图片在网页上无法显示，需要注意的是一定要修改**Hexo目录**下的`_config.yml`中修改URL的对应值，否则无法正确显示图片
+```
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yoursite.com  修改成对应自己创建的网址，例如https://996icu.github.io 
+## 
+```
 
 ## 可选配置
 
